@@ -9,3 +9,66 @@ body{
 	left:0;
 	right:0;
 }
+
+@keyframes slidy {
+	0% { left: 0%; }
+	33.333% { left: 0%; }
+	66.667% { left: -100%; }
+	100% { left: -200%; }
+}
+
+body {
+	margin: 0; 
+} 
+
+div#slider { 
+	overflow: hidden; 
+	border-radius: 15px 15px 15px 15px;
+	background-color: #131313;
+}
+
+div#slider figure img { 
+	width: 33.3333%; 
+	float: left; 
+}
+
+div#slider figure { 
+  position: relative;
+  width: 300%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 10s slidy infinite; 
+}
+
+ul {
+	list-style-type: none;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.control-buttons {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.control-buttons li {
+	cursor: pointer;
+	display: inline-block;
+	background: #424f66;
+	height: 12px;
+	width: 12px;
+	margin: 6px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.control-buttons li:active {
+	background: #55b7c8;
+}
+
+.control-buttons li:hover {
+	background: #55b7c8;
+}
