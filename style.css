@@ -69,6 +69,62 @@ ul {
 	list-style-type: none;
 }
 
+ul.menu_horizontal { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	
+	width : 955px; 
+	height : 70px;
+	padding : 0;
+	background-color : #55b7c8;
+	border : 3px solid #ECECEC;
+	border-radius: 15px;
+	list-style-type : none; 
+}
+
+ul.menu_horizontal li {
+padding : 0 0.5em;  
+line-height : 70px;
+}
+
+ul.menu_horizontal li.bouton_gauche {
+float : left;
+border-right : 1px solid white;
+
+}
+ 
+ul.menu_horizontal li.bouton_droite {
+
+color : white;
+float :right;
+margin-left:-28px;
+
+
+}
+
+ul.menu_horizontal a {
+	color : white;
+	text-decoration : none;
+	padding : 0 0.8em; 
+	font :  1em "Oxygen";
+}
+
+
+
+ 
+ul.menu_horizontal a img { 
+border : none;
+padding :  0 0.3em;
+}
+
 .control-buttons {
 	position: relative;
 	margin-top: 25px;
@@ -177,54 +233,12 @@ footer{
 	background-color: #E9E9E9;
 }
 
-ul#menu_horizontal { 
-width : 955px; 
-height : 70px;
-padding : 0;
-background-color : #55b7c8;
-border : 3px solid #ECECEC;
-border-radius: 15px;
-list-style-type : none; 
-}
- 
-ul#menu_horizontal li {
-padding : 0 0.5em;  
-line-height : 70px;
-}
- 
-ul#menu_horizontal li.bouton_gauche {
-float : left;
-border-right : 1px solid white;
 
-}
- 
-ul#menu_horizontal li.bouton_droite {
-
-color : white;
-float :right;
-margin-left:-28px;
-
-
-}
 
 .icon{
 	margin-top: 5px;
 }
- 
-ul#menu_horizontal a {
-color : white;
-text-decoration : none;
-padding : 0 0.8em; 
-font :  1em "Oxygen";
-}
 
-
-
- 
-ul#menu_horizontal a img { 
-border : none;
-padding :  0 0.3em;
-}
 
 .home{
 	background-color: black;

@@ -1,3 +1,61 @@
+ul.menu_horizontal { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	justify-content: space-around;
+	width : 100%;
+	height: auto;
+	text-align: center;
+}
+
+ul.menu_horizontal li {
+padding : 0 0.5em; 
+width: auto; 
+line-height : auto;
+border-bottom: 1px solid white;
+}
+
+ul.menu_horizontal li.bouton_gauche {
+float : left;
+border-right : 1px solid white;
+
+}
+ 
+ul.menu_horizontal li.bouton_droite {
+
+color : white;
+float :left;
+margin-left: 10px;
+
+
+}
+
+ul.menu_horizontal a {
+	color : white;
+	text-decoration : none;
+	padding : 0 0.8em; 
+	font :  1em "Oxygen";
+}
+
+
+
+ 
+ul.menu_horizontal a img { 
+border : none;
+padding :  0 0.3em;
+}
+
+
+header{
+	width:100%;
+}
+
 .flex_container{
 	flex-wrap: wrap;
 	justify-content: center;
