@@ -8,6 +8,11 @@
 	right:0;
 }
 
+header{
+
+padding-right: 30px;
+}
+
 @keyframes slidy {
 	0% { left: 0%; }
 	33.333% { left: 0%; }
@@ -147,7 +152,6 @@ footer{
 ul#menu_horizontal { 
 width : 955px; 
 height : 70px;
-margin : 2em 0 0 0;
 padding : 0;
 background-color : #55b7c8;
 border : 3px solid #ECECEC;
@@ -162,14 +166,21 @@ line-height : 70px;
  
 ul#menu_horizontal li.bouton_gauche {
 float : left;
-border-right : 0.1px outset #ECECEC; 
+border-right : 1px solid white;
+
 }
  
 ul#menu_horizontal li.bouton_droite {
+
 color : white;
-float : right;
+float :right;
+margin-left:-28px;
 
 
+}
+
+.icon{
+	margin-top: 5px;
 }
  
 ul#menu_horizontal a {
