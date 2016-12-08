@@ -57,11 +57,12 @@ div#bottom-slider-bar{
    background-color: rgba(163,170,178,0.6);
 }
 
-h3{
+p#slide-text{
 	position: relative;
 	float: right;
 	font-family: 'Condiment', serif;
 	margin-right: 10px;
+	margin-top: 25px;
 }
 
 ul {
