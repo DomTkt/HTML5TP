@@ -18,7 +18,11 @@ body{
 }
 
 body {
-	margin: 0; 
+	width:960px;
+	margin: 0 auto;
+	left:0;
+	right:0;
+	background-image:url(images/main.jpg)
 } 
 
 div#slider { 
@@ -140,4 +144,73 @@ footer{
 	text-align: center;
 	height: 10em;
 	line-height: 10em;
+}
+
+ul#menu_horizontal { 
+width : 955px; 
+height : 70px;
+margin : 2em 0 0 0;
+padding : 0;
+background-color : #55b7c8;
+border : 3px solid #ECECEC;
+border-radius: 15px;
+list-style-type : none; 
+}
+ 
+ul#menu_horizontal li {
+padding : 0 0.5em;  
+line-height : 70px;
+}
+ 
+ul#menu_horizontal li.bouton_gauche {
+float : left;
+border-right : 0.1px outset #ECECEC; 
+}
+ 
+ul#menu_horizontal li.bouton_droite {
+color : white;
+float : right;
+
+
+}
+ 
+ul#menu_horizontal a {
+color : white;
+text-decoration : none;
+padding : 0 0.8em; 
+font :  1em "Condiment";
+}
+
+
+ul#menu_horizontal a:hover { text-decoration : underline; }
+ 
+ul#menu_horizontal a img { 
+border : none;
+padding :  0 0.3em;
+}
+
+.home{
+	background-color: black;
+	border-radius : 13px 0px 0px 13px;
+}
+
+.inputSearch{
+	width : 200px;
+	height: 20px !important;
+	border-radius: 5px;
+	float :bottom;
+	margin-top: 37.5px;
+
+}
+
+.logoo{
+	margin-left: 50px;
+}
+
+.test{
+
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+
 }
