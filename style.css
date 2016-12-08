@@ -59,7 +59,7 @@ div#bottom-slider-bar{
    background-color: rgba(163,170,178,0.6);
 }
 
-h2{
+h3{
 	position: relative;
 	float: right;
 	font-family: 'Condiment', serif;
@@ -178,11 +178,11 @@ ul#menu_horizontal a {
 color : white;
 text-decoration : none;
 padding : 0 0.8em; 
-font :  1em "Condiment";
+font :  1em "Oxygen";
 }
 
 
-ul#menu_horizontal a:hover { text-decoration : underline; }
+
  
 ul#menu_horizontal a img { 
 border : none;
