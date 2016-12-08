@@ -12,7 +12,6 @@ body{
 }
 
 header{
-
 padding-right: 30px;
 }
 
@@ -71,7 +70,6 @@ ul {
 
 ul.menu_horizontal { 
 	padding: 0;
-	margin: 0;
 	list-style: none;
 	display: -webkit-box;
 	display: -moz-box;
@@ -241,6 +239,7 @@ footer{
 
 
 .home{
+	margin-left: -10px;
 	background-color: black;
 	border-radius : 13px 0px 0px 13px;
 }
