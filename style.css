@@ -193,11 +193,18 @@ padding :  0 0.3em;
 }
 
 .inputSearch{
+	background: url(images/search-button.png) no-repeat scroll 185px 5px;
 	width : 200px;
 	height: 20px !important;
 	border-radius: 5px;
 	float :bottom;
 	margin-top: 37.5px;
+
+}
+
+.inputSearch:focus{
+	background: url(images/search-button-active.png) no-repeat scroll 185px 5px;
+	
 
 }
 
