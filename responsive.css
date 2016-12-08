@@ -1,0 +1,22 @@
+.flex_container{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contenu , .article_bas{
+	width: 100%;
+}
+
+.flex_item{
+	margin: 10px 5px;
+}
+
+.more{
+	height: 4em;
+	width: 80%;
+	margin: 0px 10%;
+}
+
+.article_bas .flex_item{
+	width: 350px;
+}

@@ -117,6 +117,7 @@ ul {
 	width: 276px;
 }
 
+
 .more{
 	background-color: #56B7C8;
 	color: #fff;
@@ -136,6 +137,10 @@ ul {
     -webkit-border-radius:15px;
     border-radius:15px;
     border-color: #E9E9E9;
+}
+
+.image_article:hover{
+	border-color: #000;
 }
 
 .article_bas{
